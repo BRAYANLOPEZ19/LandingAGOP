@@ -359,6 +359,7 @@ template {
   display: none !important;
 }
 
+
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
@@ -366,6 +367,8 @@ h1, h2, h3, h4, h5, h6,
   line-height: 1.2;
   color: #212121;
 }
+
+
 
 h1, .h1 {
   font-size: 2.5rem;
@@ -375,6 +378,24 @@ h1, .h1 {
   h1, .h1 {
     font-size: calc(1.375rem + 1.5vw) ;
   }
+}
+
+
+
+
+.contact-email {
+  color: #FFFFFF; /* Cambia este color al que desees */
+}
+
+.contact-phone {
+  color: #FFFFFF; /* Cambia este color al que desees */
+}
+
+
+
+
+.FONDO {
+  background-color: #FFFFFF; /* Cambia este color al que desees */
 }
 
 h2, .h2 {
@@ -2365,14 +2386,14 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #7AB730;
-  border-color: #7AB730;
+  background-color: #FFA100;
+  border-color: #FFA100;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #669928;
-  border-color: #5f8f25;
+  background-color: #0066A1;
+  border-color: #0066A1;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -6094,7 +6115,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #7AB730 !important;
+  background-color: #FFA100 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6154,7 +6175,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #FFFFFF !important;
+  background-color: #FFA100 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -9264,7 +9285,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #7AB730 !important;
+  color: #212121 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9520,7 +9541,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #7AB730;
+  color: #FFFFFF;
 }
 
 @media (max-width: 991.98px) {
@@ -9619,14 +9640,14 @@ h6,
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #7AB730;
+  border: 2px solid #FFA100;
   background: #FFFFFF;
-  color: #7AB730;
+  color: #FFA100;
   transition: .5s;
 }
 
 .service-item:hover i {
-  background: #7AB730;
+  background: #FFA100;
   color: #FFFFFF;
 }
 
